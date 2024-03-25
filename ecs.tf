@@ -32,11 +32,11 @@ resource "aws_ecs_task_definition" "time-management-task-app" {
       "environment" : [
         {
           "name" : "SPRING_DATASOURCE_USERNAME",
-          "value" : "fiap_lanches"
+          "value" : "postgres"
         },
         {
           "name" : "SPRING_DATASOURCE_PASSWORD",
-          "value" : "fiaplanches123"
+          "value" : "postgres"
         },
         {
           "name" : "SPRING_DATASOURCE_URL",
