@@ -23,7 +23,7 @@ variable "az_count" {
 variable "dict_app_image" {
   description = "Docker image to run in the ECS cluster"
   default = {
-    time_management = "516194196157.dkr.ecr.us-east-1.amazonaws.com/fiap-lanches-conta:latest"
+    time_management = "516194196157.dkr.ecr.us-east-1.amazonaws.com/time-management-app:latest"
   }
   type = map(string)
 }
